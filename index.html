@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique en ligne - Votre magasin préféré</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Boutique<span>Online</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Accueil</a></li>
+                    <li><a href="#products">Produits</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Découvrez nos produits exceptionnels</h2>
+            <p>Des articles de qualité à des prix imbattables</p>
+            <a href="#products" class="btn">Voir les produits</a>
+        </div>
+    </section>
+
+    <section class="products-section" id="products">
+        <div class="container">
+            <h2>Nos produits phares</h2>
+            <div class="products-grid">
+                <!-- Produit 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="smartphone.jpg" alt="Produit 1">
+                        <span class="discount-tag">-20%</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Smartphone Premium</h3>
+                        <p class="product-description">Un smartphone haut de gamme avec écran AMOLED et triple caméra.</p>
+                        <div class="price">
+                            <span class="current-price">100 000 FCFA</span>
+                            <span class="original-price">120 000 FCFA</span>
+                        </div>
+                        <button class="buy-btn">Acheter maintenant</button>
+                    </div>
+                </div>
+
+                <!-- Produit 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="casque.jpg" alt="Produit 2">
+                    </div>
+                    <div class="product-info">
+                        <h3>Casque Audio Sans Fil</h3>
+                        <p class="product-description">Casque Bluetooth avec annulation de bruit active.</p>
+                        <div class="price">
+                            <span class="current-price">10 000 FCFA</span>
+                        </div>
+                        <button class="buy-btn">Acheter maintenant</button>
+                    </div>
+                </div>
+
+                <!-- Produit 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="montre.jpg" alt="Produit 3">
+                        <span class="new-tag">Nouveau</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Montre Connectée</h3>
+                        <p class="product-description">Suivi d'activité, notifications et autonomie de 7 jours.</p>
+                        <div class="price">
+                            <span class="current-price">20 000 FCFA</span>
+                        </div>
+                        <button class="buy-btn">Acheter maintenant</button>
+                    </div>
+                </div>
+
+                <!-- Produit 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="enceinte_portable.jpg" alt="Produit 4">
+                    </div>
+                    <div class="product-info">
+                        <h3>Enceinte Portable</h3>
+                        <p class="product-description">Son puissant, résistante à l'eau avec 20h d'autonomie.</p>
+                        <div class="price">
+                            <span class="current-price">5000 FCFA</span>
+                        </div>
+                        <button class="buy-btn">Acheter maintenant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Abonnez-vous à notre newsletter</h2>
+            <p>Recevez des offres exclusives et des mises à jour sur nos nouveaux produits.</p>
+            <form>
+                <input type="email" placeholder="Votre adresse email" required>
+                <button type="submit" class="btn">S'abonner</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-columns">
+                <div class="footer-column">
+                    <h3>BoutiqueOnline</h3>
+                    <p>Votre destination pour des produits de qualité à des prix abordables.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#home">Accueil</a></li>
+                        <li><a href="#products">Produits</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Informations</h3>
+                    <ul>
+                        <li><a href="#">Politique de confidentialité</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Retours et remboursements</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Rue de la Boutique, Sénègal-Dakar</li>
+                        <li><i class="fas fa-phone"></i> +221 78 956 00 00</li>
+                        <li><i class="fas fa-envelope"></i> contact@boutiqueonline.fr</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 BoutiqueOnline. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
